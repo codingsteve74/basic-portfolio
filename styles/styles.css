@@ -171,6 +171,90 @@ a.social:hover {
   clear: both;
 }
 
+/* added in styles for addtional pages */
+.myskills {
+  width: 90%;
+  
+  margin: 2rem;
+  background-color: black;
+}
+
+.myskills li, .myskills h3 {
+  color: white;
+}
+
+.myskills ul li {
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 3rem;
+}
+
+.myskills h3 {
+  padding-top: 1rem;
+}
+
+.myskills ul {
+  padding-bottom: 1rem;
+}
+
+.resume-background {
+  background-color: rgba(255, 232, 219, 99);
+  padding: 10px;
+  margin: 0 20px 10px 25px;
+}
+
+.software-DB {
+  width: 90%;
+  margin: 2rems;
+}
+
+.software-DB h3 {
+  padding-left: 3rem;
+}
+
+.software-DB ul li {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.software-knowledge {
+  width: 90%;
+  margin: 2rem;
+}
+
+.software-knowledge ul li {
+  list-style-type: none;
+  padding-left: 0;
+  padding-right: 3rem;
+}
+
+.mycontact p {
+  margin-bottom: 0;
+}
+
+.mycontact {
+  padding-bottom: 2rem;
+}
+
+#cap-T {
+  font-weight: bolder;
+  padding-right: 0.5rem;
+}
+
+#cap-E {
+  font-weight: bolder;
+  padding-right: 0.5rem;
+  
+}
+
+#phone {
+  color: rgba(30, 10, 255, 100);
+}
+
+#email {
+  color: rgba(30, 10, 255, 100);
+}
+
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
   
