@@ -204,12 +204,9 @@ a.social:hover {
   margin: 0 20px 10px 25px;
 }
 
-
 .software-DB {
   width: 90%;
-  margin: 2rems;
 }
-
 .software-DB h3 {
   padding-left: 3rem;
 }
@@ -252,6 +249,13 @@ a.social:hover {
 #phone, #email {
   color: rgba(30, 10, 255, 100);
 }
+
+/* added in styles for the hebbies page */
+div img {
+  width: 350px;
+  height: 200px;
+}
+
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
@@ -323,6 +327,38 @@ a.social:hover {
 
   #cap-E {
     padding-left: 20px;
+  }
+
+/* styles for the hobbies page */
+  .d-card {
+    max-width: 80%;
+    margin-left: 15rem;
+    margin-bottom: 30px;
+    padding: 20px 40px 40px;
+    text-align: left;
+    background: #fff;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+  }
+
+  .f-style {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .right-side-img {
+    padding-right: 20px;
+  }
+
+  .left-side-img {
+    padding-left: 20px;
+  }
+
+  div img {
+    height: 300px;
+    width: 400px;
   }
 }
 
