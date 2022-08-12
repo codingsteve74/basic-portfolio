@@ -172,6 +172,7 @@ a.social:hover {
 }
 
 /* added in styles for addtional pages */
+/* added in styles for the experience page */
 .myskills {
   width: 90%;
   
@@ -202,6 +203,7 @@ a.social:hover {
   padding: 10px;
   margin: 0 20px 10px 25px;
 }
+
 
 .software-DB {
   width: 90%;
@@ -247,11 +249,7 @@ a.social:hover {
   
 }
 
-#phone {
-  color: rgba(30, 10, 255, 100);
-}
-
-#email {
+#phone, #email {
   color: rgba(30, 10, 255, 100);
 }
 
@@ -291,5 +289,40 @@ a.social:hover {
     margin: 40px auto;
   }
 
+  /*Added in Styles for Full Screen */
+  /* Styles for the experience page */
+  .resume-background {
+    width: 80%;
+    margin-left: 12rem;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .full-size {
+    display: flex;
+  }
+
+  .myskills {
+    flex-direction: column;
+    width: 20rem;
+    height: 25rem;
+  }
+
+  .software-DB {
+    flex-direction: row;
+    width: 50%;
+    padding-top: 30px;
+    align-content: space-between;
+    padding-right: 20px;
+  }
+
+  .mycontact {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50rem;
+  }
+
+  #cap-E {
+    padding-left: 20px;
+  }
 }
 
